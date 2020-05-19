@@ -6,6 +6,6 @@ document.addEventListener("DOMContentLoaded", () => {
     let li = document.createElement('li');
     const taskDescription = document.getElementById('new-task-description');
     li.innerText = taskDescription;
-    ul.appendChild('li')
+    ul.appendChild(li);
   })
 });
